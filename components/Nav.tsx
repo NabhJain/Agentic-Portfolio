@@ -27,7 +27,7 @@ export function Nav() {
         scrolled ? "glass-strong" : "bg-transparent"
       }`}
     >
-      <nav className="max-w-6xl mx-auto flex items-center justify-between px-6 md:px-10 h-14 md:h-16">
+      <nav className="max-w-6xl mx-auto flex items-center justify-between px-6 md:px-10 h-16 md:h-16">
         <a
           href="#top"
           className="font-mono text-[13px] tracking-tight text-fog focus-ring"
