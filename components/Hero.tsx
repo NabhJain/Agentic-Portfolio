@@ -96,9 +96,9 @@ export function Hero() {
             initial={{ opacity: 0, scale: 0.96, y: 12 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
             transition={{ duration: 0.9, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
-            className="hidden md:block"
-          >
-            <AgentTypingPreview />
+            className="block"
+            >
+          <AgentTypingPreview />
           </motion.div>
         </div>
       </div>
