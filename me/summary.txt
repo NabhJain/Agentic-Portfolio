@@ -1,0 +1,36 @@
+Nabh Jain is a 4th-year Computer Engineering student at NMIMS School of Technology Management and Engineering, Indore, India (CGPA: 3.51/4.0, Aug 2023–Present).
+
+He is passionate about Agentic AI, LLMs, RAG pipelines, and applied Machine Learning. He is currently seeking internships and collaborations in AI/ML.
+
+EXPERIENCE:
+- AI/ML Research Intern at Ecoreceipt Ltd. (UK, Remote) | May–Jul 2025: Built OCR-based document understanding systems, analyzed transaction data with unsupervised learning, improved extraction reliability by 20%.
+- AI & ML Intern at Hiteshi Infotech Pvt. Ltd. (Indore) | May–Jun 2024: Trained regression/classification models, ran end-to-end ML pipelines, automated data extraction cutting manual work by 40%.
+
+PROJECTS:
+1. AI-Powered Agentic Portfolio Assistant (Jan 2026) — Python, Gemini API, RAG, Gradio: Goal-driven agentic framework with LLM reasoning + RAG, 24/7 autonomous chatbot for professional inquiries, Pushover API for human-in-the-loop feedback.
+2. AI-Driven eDNA Biodiversity Pipeline (Oct 2025) — Python, Streamlit, XGBoost, BLAST+: Automated bioinformatics pipeline for species identification from environmental DNA, clustering for rare taxonomy detection, real-time Streamlit dashboard.
+3. NeuroRoute Swarm Intelligence for Edge AI (Aug 2025) — Python, Federated Learning, Edge AI: Combined swarm intelligence + federated learning for autonomous fleet routing, 1000+ simulated driving scenarios, reduced simulated carbon emissions.
+
+SKILLS:
+Languages: Python, C++, SQL, R, Java, HTML, CSS
+AI & ML: Agentic Workflows, NLP, RAG Pipelines, Prompt Engineering, Gemini API, HuggingFace
+Data Science: EDA, Predictive Modeling, Time Series Forecasting, A/B Testing
+Libraries: Pandas, NumPy, Scikit-learn, XGBoost, TensorFlow, Matplotlib, Seaborn, Streamlit
+Tools: Git, GitHub, Google Colab, Jupyter, Gradio, VS Code
+
+EDUCATION:
+- B.Tech Computer Engineering, NMIMS Indore (2023–Present) — CGPA 3.51/4.0
+- Class XII CBSE, Aim Win Academy (2022) — 76.23%
+- Class X CBSE, Choithram School (2020) — 85.60%
+
+CERTIFICATIONS:
+Prompt Engineering (IBM), ML & AI Workshops (IIT Bombay), Excel for Data Analysis (IBM), Google Cloud Study Jam, Software Engineering Simulation (Accenture/Forage), Data Analytics Simulation (Deloitte/Forage)
+
+LEADERSHIP:
+- Junior Placement Coordinator, NMIMS Indore (Mar 2025–Present)
+- Member: Technical Club Turing, E-Cell Ukriti
+
+CONTACT:
+Email: nabhjain8015@gmail.com | Phone: +91-7725815536
+LinkedIn: https://www.linkedin.com/in/nabhjain/ | GitHub: https://github.com/NabhJain
+Location: Indore, India | Open to: Internships, Research Collaborations, AI/ML roles
