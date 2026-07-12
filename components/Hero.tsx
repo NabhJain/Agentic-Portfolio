@@ -9,7 +9,7 @@ export function Hero() {
   return (
     <section
       id="top"
-      className="relative min-h-[100vh] flex flex-col justify-center overflow-hidden pt-16 md:pt-20 pb-16"
+      className="relative min-h-[100vh] flex flex-col justify-center overflow-hidden pt-18 md:pt-20 pb-16"
     >
       <div className="absolute -top-40 -left-40 w-[520px] h-[520px] bg-orb rounded-full blur-3xl opacity-20 animate-floatY" />
       <div className="absolute top-40 -right-40 w-[520px] h-[520px] bg-orb2 rounded-full blur-3xl opacity-15 animate-floatY" />
@@ -97,8 +97,8 @@ export function Hero() {
             animate={{ opacity: 1, scale: 1, y: 0 }}
             transition={{ duration: 0.9, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
             className="hidden md:block"
-            >
-          <AgentTypingPreview />
+          >
+            <AgentTypingPreview />
           </motion.div>
         </div>
       </div>
