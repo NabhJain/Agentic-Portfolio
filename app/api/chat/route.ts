@@ -164,7 +164,7 @@ export async function POST(req: NextRequest) {
 
     while (!done) {
       const response = await gemini.chat.completions.create({
-        model: "llama-3.3-70b-versatile",
+        model: "mixtral-8x7b-32768",
         messages,
         tools,
         tool_choice: "auto",
