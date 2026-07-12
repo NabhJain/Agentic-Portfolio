@@ -76,7 +76,7 @@ export function Hero() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.5 }}
-              className="mt-14 grid grid-cols-4 gap-6 max-w-lg"
+              className="mt-12 grid grid-cols-3 md:grid-cols-4 gap-x-8 gap-y-6 max-w-lg"
             >
               {stats.map((s) => (
                 <div key={s.label}>
@@ -93,13 +93,13 @@ export function Hero() {
           </div>
 
           <motion.div
-            initial={{ opacity: 0, scale: 0.96, y: 12 }}
-            animate={{ opacity: 1, scale: 1, y: 0 }}
-            transition={{ duration: 0.9, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
-            className="hidden md:block"
-          >
-            <AgentTypingPreview />
-          </motion.div>
+  initial={{ opacity: 0, scale: 0.96, y: 12 }}
+  animate={{ opacity: 1, scale: 1, y: 0 }}
+  transition={{ duration: 0.9, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
+  className="mt-10 md:mt-0 w-full max-w-md mx-auto"
+>
+  <AgentTypingPreview />
+</motion.div>
         </div>
       </div>
 
