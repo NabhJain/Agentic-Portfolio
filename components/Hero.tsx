@@ -11,8 +11,8 @@ export function Hero() {
       id="top"
       className="relative min-h-[100vh] flex flex-col justify-center overflow-hidden pt-28 pb-16"
     >
-      <div className="absolute -top-40 -left-40 w-[520px] h-[520px] bg-orb rounded-full blur-3xl opacity-60 animate-floatY" />
-      <div className="absolute top-40 -right-40 w-[520px] h-[520px] bg-orb2 rounded-full blur-3xl opacity-50 animate-floatY" />
+      <div className="absolute -top-40 -left-40 w-[520px] h-[520px] bg-orb rounded-full blur-3xl opacity-20 animate-floatY" />
+      <div className="absolute top-40 -right-40 w-[520px] h-[520px] bg-orb2 rounded-full blur-3xl opacity-15 animate-floatY" />
 
       <div className="max-w-6xl w-full mx-auto px-6 md:px-10 relative z-10">
         <motion.p
