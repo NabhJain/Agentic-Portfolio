@@ -164,13 +164,12 @@ export async function POST(req: NextRequest) {
 
     while (!done) {
       const response = await gemini.chat.completions.create({
-        model: "qwen/qwen3.6-27b",
+        model: "llama-3.3-70b-versatile",
         messages,
-        tools,
-        tool_choice: "auto",
-        // @ts-ignore
-        reasoning_effort: "none",
       });
+      
+      finalContent = response.choices[0].message.content ?? "I couldn't generate a response.";
+      done = true;
     
       const choice = response.choices[0];
       const content = choice.message.content ?? "";
