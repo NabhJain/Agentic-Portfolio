@@ -164,7 +164,7 @@ export async function POST(req: NextRequest) {
 
     while (!done) {
       const response = await gemini.chat.completions.create({
-        model: "llama-3.1-8b-instant",
+        model: "llama3-groq-70b-8192-tool-use-preview",
         messages,
         tools,
         tool_choice: "auto",
