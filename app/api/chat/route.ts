@@ -164,10 +164,12 @@ export async function POST(req: NextRequest) {
 
     while (!done) {
       const response = await gemini.chat.completions.create({
-        model: "llama3-groq-70b-8192-tool-use-preview",
+        model: "qwen/qwen3.6-27b",
         messages,
         tools,
         tool_choice: "auto",
+        // @ts-ignore
+        reasoning_effort: "none",
       });
     
       const choice = response.choices[0];
