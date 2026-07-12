@@ -5,7 +5,7 @@ import { Reveal } from "./Reveal";
 
 export function Experience() {
   return (
-    <section id="experience" className="relative py-28 md:py-36">
+    <section id="experience" className="relative py-16 md:py-24">
       <div className="max-w-6xl mx-auto px-6 md:px-10">
         <Reveal>
           <p className="font-mono text-[13px] text-cyan mb-4">
