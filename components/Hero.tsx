@@ -9,7 +9,7 @@ export function Hero() {
   return (
     <section
       id="top"
-      className="relative min-h-[100vh] flex flex-col justify-center overflow-hidden pt-28 pb-16"
+      className="relative min-h-[100vh] flex flex-col justify-center overflow-hidden pt-20 pb-16"
     >
       <div className="absolute -top-40 -left-40 w-[520px] h-[520px] bg-orb rounded-full blur-3xl opacity-20 animate-floatY" />
       <div className="absolute top-40 -right-40 w-[520px] h-[520px] bg-orb2 rounded-full blur-3xl opacity-15 animate-floatY" />
