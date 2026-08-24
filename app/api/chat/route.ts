@@ -166,11 +166,14 @@ export async function POST(req: NextRequest) {
       const response = await gemini.chat.completions.create({
         model: "qwen/qwen3.6-27b",
         messages,
+        // @ts-ignore
+        reasoning_effort: "none",
       });
       
       let raw = response.choices[0].message.content ?? "I couldn't generate a response. Please try again.";
       // Strip thinking tags leaked by reasoning models
-      raw = raw.replace(/<think>[\s\S]*?<\/think>/g, "").trim();
+      raw = raw.replace(/<think>[\s\S]*?<\/think>/gi, "").trim();
+      raw = raw.replace(/<think>[\s\S]*/gi, "").trim();
       finalContent = raw;
       done = true;
     
