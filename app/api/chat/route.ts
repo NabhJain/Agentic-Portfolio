@@ -168,7 +168,10 @@ export async function POST(req: NextRequest) {
         messages,
       });
       
-      finalContent = response.choices[0].message.content ?? "I couldn't generate a response.";
+      let raw = response.choices[0].message.content ?? "I couldn't generate a response. Please try again.";
+      // Strip thinking tags leaked by reasoning models
+      raw = raw.replace(/<think>[\s\S]*?<\/think>/g, "").trim();
+      finalContent = raw;
       done = true;
     
       const choice = response.choices[0];
