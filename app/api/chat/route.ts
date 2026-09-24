@@ -164,7 +164,7 @@ export async function POST(req: NextRequest) {
 
     while (!done) {
       const response = await gemini.chat.completions.create({
-        model: "qwen/qwen3.6-27b",
+        model: "qwen/qwen3.8-27b",
         messages,
         // @ts-ignore
         reasoning_effort: "none",
